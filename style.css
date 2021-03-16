@@ -10,6 +10,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
+    border-bottom: 1px solid #bbb;
 }
 
 /* styles for the a tag */
@@ -20,7 +21,8 @@ nav > a {
 
 /* styles for the logo */
 nav > a #logo {
-    font-weight: 300;
+    font-size: 14pt;
+    font-weight: 400;
     letter-spacing: -2.5px;
     position: relative;
 }
@@ -32,8 +34,8 @@ nav #logo::before{
     height: 4px;
     border-radius: 50%;
     position: absolute;
-    right: -6px;
-    top: 0;
+    right: -4px;
+    top: 3px;
 }
 
 nav #logo::after{
@@ -43,12 +45,12 @@ nav #logo::after{
     height: 15px;
     border-radius: 50%;
     position: absolute;
-    right: -21px;
-    top: -13px;
+    right: -19px;
+    top: -9px;
 }
 
 nav  a #logo span {
-    font-weight: 500;
+    font-weight: 700;
 }
 
 /* for the nav links */
@@ -74,4 +76,61 @@ nav #download-btn {
     color: #fff;
     padding: 8px 15px;
     margin: 0px 10px;
+}
+
+/* styles for the main */
+main {
+    display: flex;
+}
+
+main .left {
+    margin-left: 15%;
+    margin-top: 11%;
+}
+
+main .code {
+    font-size: 7pt;
+    color: #ddd;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+main .oops {
+    font-size: 35pt;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+main .oops span {
+    font-size: 22pt;
+    font-weight: 450;
+    line-height: 15pt;
+}
+
+main .help {
+    font-size: 9pt;
+    color: #ddd;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+main .links a {
+    font-size: 7.2pt;
+    color: #8ee;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+main .right {
+    margin-top: 11%;
+    margin-right: 0%;
+    margin-left: 0px;
+    justify-content: flex-start;
+}
+
+main svg {
+    width: 850px;
+    height: 300px;
 }

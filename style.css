@@ -34,7 +34,7 @@ nav #logo::before{
     height: 4px;
     border-radius: 50%;
     position: absolute;
-    right: -4px;
+    right: -5px;
     top: 3px;
 }
 
@@ -81,6 +81,8 @@ nav #download-btn {
 /* styles for the main */
 main {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main .left {
@@ -89,9 +91,8 @@ main .left {
 }
 
 main .code {
-    font-size: 7pt;
+    font-size: 10pt;
     color: #ddd;
-    font-weight: 600;
     margin-bottom: 10px;
 }
 
@@ -109,28 +110,29 @@ main .oops span {
 }
 
 main .help {
-    font-size: 9pt;
+    font-size: 12pt;
     color: #ddd;
-    font-weight: 500;
     margin-bottom: 10px;
 }
 
 main .links a {
-    font-size: 7.2pt;
+    font-size: 9pt;
     color: #8ee;
+    box-sizing: border-box;
+    border-bottom: 1px solid #8ee;
     text-decoration: none;
-    margin-right: 15px;
-    font-weight: 600;
+    margin-right: 18px;
 }
 
 main .right {
-    margin-top: 11%;
-    margin-right: 0%;
-    margin-left: 0px;
-    justify-content: flex-start;
+    margin-top: 7%;
+    margin-right: 10%;
+    
 }
 
-main svg {
-    width: 850px;
-    height: 300px;
+main img {
+    width: 730px;
+    height: 400px;
 }
+
+

@@ -1,0 +1,15 @@
+@media screen and (max-width: 850px) {
+    nav ul li a{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 760px) {
+        main {
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+        main .left {
+            align-items: center;
+        }
+}
